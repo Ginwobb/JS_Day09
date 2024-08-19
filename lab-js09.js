@@ -112,6 +112,16 @@
 //   return `Even number: ${even} `
 // }
 // console.log(filterOutOdds(8,9,7,1,20))
+// -----------or----------
+// let filterOdds = (...nums) => {
+//     let odd = nums.filter((item) => {
+//       return item % 2 == 0
+//     })
+//     return odd
+//   }
+  
+//   let result = filterOdds(1, 2, 3, 4, 5, 6, 7, 8)
+//   console.log(result)
 
 // // ------------------- Lab03 Rest--------------------
 // function mergeObjects(...object){
